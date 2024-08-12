@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-image: url('651.webp'); /* Añade la imagen de fondo de un campo */
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: green; /* Ajusta el color según el logo */
+}
+
+#logo {
+    width: 100px; /* Ajusta según las necesidades */
+    margin-right: 20px;
+}
+
+#main-title {
+    font-size: 50px; /* Ajusta el tamaño de la fuente según lo necesites */
+    color: black; /* Cambia el color del texto a negro */
+    font-family: 'Lucida Handwriting', cursive; /* Estilo similar al logo */
+    
+}
+
+
+
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1200px; /* Ajusta según el diseño general */
+}
+
+.product {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: calc(33.333% - 20px); /* ajuste para tres productos por fila teniendo en cuenta el margen */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    background-color: white;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
